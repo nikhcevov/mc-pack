@@ -145,6 +145,29 @@ tmp=$(mktemp -d) && cd "$tmp" \
   && ls mods | wc -l    # 20
 ```
 
+## Config behavior
+
+packwiz-installer records what it installed in `packwiz.json` inside the
+instance, so changes are selective rather than wholesale:
+
+| Change in this repo | Effect on an existing client |
+| --- | --- |
+| file untouched | local edits are preserved |
+| file edited (or version bumped) | local copy is overwritten at next launch |
+| file removed | local copy is deleted at next launch |
+
+Consequences:
+
+- Shipping a config sets it for new clients and leaves existing edits alone
+  until you push a change to that file.
+- Pushing a config edit overwrites the whole file on every client, so treat
+  each shipped file as the authoritative default for that area.
+- Removing a file is destructive for players (it is deleted on next launch).
+  `options.txt` and `servers.dat` stay in the pack for this reason even though
+  they are player-specific.
+- `README.md` is in `.packwizignore`; it is published for humans but not
+  installed into clients.
+
 ## Gotchas
 
 - Mod versions are pinned in `mods/*.pw.toml`. Voice chat (`2.6.27`) and c2me
@@ -152,9 +175,9 @@ tmp=$(mktemp -d) && cd "$tmp" \
   truth, so update them once and both sides follow.
 - packwiz does not delete jars it does not manage. Clean stale files manually
   after big changes.
-- Managed config files are re-hashed on each client launch, so edits to shipped
-  configs are reverted. Treat this repo as authoritative for those files.
-- `options.txt` ships `renderDistance:6` / `simulationDistance:6`; the server
-  runs `view-distance=10`. Raise it if players should receive the full radius.
+- `options.txt` is a frozen baseline (`renderDistance:6`,
+  `simulationDistance:6`, keybinds, GUI scale). It ships because removing it
+  would delete the file from existing clients, not because it should track
+  changes. Editing it resets every client's options on next launch.
 - The server start depends on the pack URL being reachable, and the client
   launch depends on it too.
