@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "c397932161bf0aff0598f388ec3b1e5ca2de4ee5895238bf77b452abd87477b0"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "f1b093203a9069ea635fe2fdd7fb5c889bcd7f5f336030a4802de488e7385086"
 
@@ -102,7 +106,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/litematica.json"
-hash = "2314f6427f65f153596d5c1cad75013a2bb71c17c63a95afdbe79e4ee900a6c4"
+hash = "07c3eb9576418e0b47c91ac23bac5db5a963239a62e0283e8e250bb4a8d9765e"
 
 [[files]]
 file = "config/lithium.properties"

@@ -96,7 +96,7 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "/home/boss/.local/share/PrismLauncher/instances/MC/minecraft/schematics",
+    "customSchematicBaseDirectory": "",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
