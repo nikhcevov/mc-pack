@@ -1,2 +1,5 @@
 # Hosted as a direct URL entry in mods/railway.pw.toml
 custom/
+
+# Published for humans; never install into the game directory
+README.md
