@@ -289,6 +289,221 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "18f2ba5e11bfad52722528a53b50c1a6e072b2bf689218f5511cb6a471920bf1"
+metafile = true
+
+[[files]]
+file = "mods/bluemap-sign-markers.pw.toml"
+hash = "6472aceffcda1681d65e85a72dc08829d2eee96c029ee52f64e06243960dbdcb"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
+hash = "2d8355f2c8dd9ccbec4b9bc2a4b8a1aa1d4544020ea6e81f8dff5442d86f07c7"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "a8592410ea8068bac5249ee3c613c2d85f92dd98e53601d1d6fcff925ec28cb3"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "8836a7a326d2e40a8ef76fd27b3cec0abe28b02e0f88ab5534219f73c392a41f"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "0a61654825b35e65668214c337cb94a5d97f4f2454171368c865b54ea3353dcf"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "d5478ac8bfa223c71d86c7d83b674996187e23305deb1cc2f100a422cc94b70e"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "26812401f5bb12b4c8f1e49f6a9d33579692480dcffb0ee20c7d0fcdef16f991"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "306df8d5a5a6eed3a1c270ee6b687fac57accf5e934e988a13621b309e8cbadc"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "a64622b63d889cc77763bbc169dd1d66b20cfdf8e14d5171926252ed3ff65a84"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "1b2ba77c58771ed123b8deba62b1249013b50cab4f28a4999ef6af7b816dceaa"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "0d883105f1e9c58a47b212b7f9ed94ff66d7f71dbf1d521218ed5f9e8b6ebb71"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "78c5e89d459d27340e9d261d18ffd188d9768a61439f5d9b1932699305c97a3d"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "e4e4983f3eec12703d64bd154871490405cf763c86416f953a5290f3982df363"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "3f3720d8e319e24fdc572e4b40c48c9bd9dd0124f930befb493a611719adf32b"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "2ac5aee34be42fbe3300e74a5a6638170941502c2ab8cda24c1ef4f049a8593f"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "b14ff1d5ac7d790fb404efac25f2cf4a5832de03ffdcab775743ef224e751079"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "b16b481866652c068bab852b886d1a1833054779ac5a80758f4e32d3ad8df0ad"
+metafile = true
+
+[[files]]
+file = "mods/itemswapper.pw.toml"
+hash = "ca648d5c6f855b68a2cd82dd5c0ad4ed049a70cbd3a8967e7668ce3b7b7befc1"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "364072172cecfe55da67f67a1473d6cb83b19635811aa1a3ff7c2cd50fe82780"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "6047ef9a150999d59f033389619569c67dcbe26c927795b463ee512b4fc94ac7"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "975c0ca73b7d9e6a90f1305011f0b6fa6a3f58fefb36aa8d7808edb4d1c9fa7b"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "7480d8ddad53d69b5a83f98cf8fbcdfca6bf6be994311a83155e30314d21191c"
+metafile = true
+
+[[files]]
+file = "mods/litematica.pw.toml"
+hash = "83885a3680eaf4fab588ec1a9386851585a3c1316f7be40946a1cd2956254443"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "ced36d8e61cc3fd6f3161644666b738ff0fea4c851e9795e9bae2d46fda485e1"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "c9d4724d1802ca4bb8342052120c9c6b395f7ef367b2e14fac1d4257683cd103"
+metafile = true
+
+[[files]]
+file = "mods/maplink.pw.toml"
+hash = "d0c844b72f42c7f221d5db9943d31cef2797c2cd44aaf36b83e4f5ed145a871c"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "70d5f71271bddaacb305e7c3834b59721374c86a4472f8140c9e15b01d1d5f56"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "89a9ea9b3242972dfef7ad2308d697d4c592d54c69f5b66bfe7a31a734faf2d8"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "653002b631c483a191312637144df6c35e44072408ed5279fb798e167c082ade"
+metafile = true
+
+[[files]]
+file = "mods/ore-harvester.pw.toml"
+hash = "8bf43eec6f0b832910c224f9d1df15ff9b4a0c29172dd7eddf5660eeea63e045"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "0a09e3a4cb6e79973f05afb0ea61ccdc15b78937eacbf3db250ad0fe10577056"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "84a904e7d27f8fc87f92a3c2f9c2ea06c9bde15af29ce64919a6767fb90cb249"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "11e3cdab17ace7075c87169c294629fcb6b26f29b0cd8c913fa12361831f89cc"
+metafile = true
+
+[[files]]
+file = "mods/railway.pw.toml"
+hash = "bea0ffe86ae0bf798b855d022336b6bebe3f1333ddb334f3343ddae11faa2d8b"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "7654693135c2ebaa34c9d0455d0eeff6584332d71fcb5d2a2d9e96c60f1afea6"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "7657127814194d346a170c7376fea47f36a36efeaf1a35a55623b08467dc6295"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "c47fd584ff74f35859f1933b45c0429574a3feaa13266ed4e90ed1a66fdc524a"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "702352084d8436a9f81a160f236ac27af02fc819f855438097993243247f3684"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "68e26b9b86c33c49a4550d81449d40ac8cf0906dceab72156842f9d5efccb99e"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "3d37928c822376470ff685117450300bed2e0a2993e2002c91092bdd0ac01cab"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "7ecf74a42149a4f4027cd2091fdd268a587fc61f27adc2724573bca1fe6c72ea"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "9ad9cd1476e1eac623421e7b26e64b8d6c1eb32deea58b14b31f420d8c03e0a6"
+metafile = true
+
+[[files]]
 file = "options.txt"
 hash = "52bcb1ae0130735ab4951eb041dd3d599ec185c5af0308d306bba5c58fe4e688"
 
