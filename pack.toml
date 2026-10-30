@@ -1,0 +1,13 @@
+name = "mc"
+author = "nikhcevov"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "29c64f33e95da3859a6f60279a2f83b9266e166bab56e74a35427bd1953e0d7e"
+
+[versions]
+fabric = "0.20.1"
+minecraft = "26.1.2"
