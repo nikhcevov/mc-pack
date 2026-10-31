@@ -5,7 +5,7 @@ packwiz modpack for the private Fabric server. The pack definition is served at
 server container and every Prism client.
 
 - Minecraft `26.1.2`, Fabric loader `0.20.1`
-- 43 mods: 13 `both`, 23 `client`, 7 `server`
+- 44 mods: 13 `both`, 23 `client`, 8 `server`
 - Client configs ship with the pack: `config/`, `options.txt`, `servers.dat`
 
 ## Layout
@@ -17,7 +17,8 @@ server container and every Prism client.
 | `mods/*.pw.toml` | mod metadata, no jars |
 | `config/`, `options.txt`, `servers.dat` | client files shipped as-is |
 | `custom/railway-0.1.0-alpha.6.jar` | server-only mod hosted by direct URL |
-| `.packwizignore` | keeps `custom/` out of the index |
+| `index.html` | public landing page; not installed into clients |
+| `.packwizignore` | keeps `custom/`, `README.md`, `index.html` out of the index |
 
 No mod jars are committed to git except `custom/`. Everything else is resolved
 from Modrinth by hash at install time, so client and server get identical files.
@@ -30,7 +31,7 @@ from Modrinth by hash at install time, so client and server get identical files.
 | --- | --- | --- |
 | `both` | 13 | libraries and shared mods: fabric-api, cloth-config, collective, jamlib, DH, c2me, lithium, krypton, ferrite-core, sound-physics, voice chat, Xaero's maps |
 | `client` | 23 | Sodium, JEI, Litematica/MaLiLib, Xaero's deps, UI/visual mods, client-only libraries |
-| `server` | 7 | BlueMap + sign markers, clumps, ore/tree/right-click harvest, railway |
+| `server` | 8 | BlueMap + sign markers, clumps, spark, ore/tree/right-click harvest, railway |
 
 Notes:
 
@@ -114,8 +115,12 @@ ssh great-hornbill 'mv /mnt/user/appdata/minecraft/mc/mods /mnt/user/appdata/min
 docker restart minecraft-mc
 ```
 
-Expected result: 20 jars in `/data/mods` (13 `both` + 7 `server`), including
+Expected result: 21 jars in `/data/mods` (13 `both` + 8 `server`), including
 `railway-0.1.0-alpha.6.jar` fetched from `mc-pack/custom/`.
+
+Server load defaults live in `config/DistantHorizons.toml` (4 threads,
+generation distance 2048, request rate 10); spark is server-side for
+`/spark tps` and profiling.
 
 ## Clients (Prism)
 
@@ -175,7 +180,7 @@ Consequences:
   truth, so update them once and both sides follow.
 - packwiz does not delete jars it does not manage. Clean stale files manually
   after big changes.
-- `options.txt` is a frozen baseline (`renderDistance:6`,
+- `options.txt` is a frozen baseline (`renderDistance:10`,
   `simulationDistance:6`, keybinds, GUI scale). It ships because removing it
   would delete the file from existing clients, not because it should track
   changes. Editing it resets every client's options on next launch.
