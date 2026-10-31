@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f1b093203a9069ea635fe2fdd7fb5c889bcd7f5f336030a4802de488e7385086"
+hash = "4dee2527a30ff4045eb2642982714c55dc94f98506f104406e2b7e58c039bb1b"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -484,6 +484,11 @@ hash = "702352084d8436a9f81a160f236ac27af02fc819f855438097993243247f3684"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "43bdce478a1b421f2fe0718b2b5aea0624833340970c9621ff56ed00b0fc44c0"
+metafile = true
+
+[[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "68e26b9b86c33c49a4550d81449d40ac8cf0906dceab72156842f9d5efccb99e"
 metafile = true
@@ -505,7 +510,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "52bcb1ae0130735ab4951eb041dd3d599ec185c5af0308d306bba5c58fe4e688"
+hash = "f8d5a18abdb629bb50fa387bd45f553f9bce170dc1f97afccf4780bc07553ebb"
 
 [[files]]
 file = "servers.dat"

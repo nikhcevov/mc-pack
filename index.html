@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mc — Fabric 26.1.2 server pack</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.55;
+  }
+  h1 { margin-bottom: .25rem; }
+  .sub { margin-top: 0; opacity: .7; }
+  table { border-collapse: collapse; margin: 1.5rem 0; }
+  th, td { text-align: left; padding: .3rem 1.5rem .3rem 0; vertical-align: top; }
+  th { font-weight: 600; white-space: nowrap; }
+  code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  code { background: color-mix(in srgb, currentColor 10%, transparent); padding: .1rem .3rem; border-radius: .25rem; }
+  pre { background: color-mix(in srgb, currentColor 8%, transparent); padding: .75rem 1rem; border-radius: .4rem; overflow-x: auto; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<h1>mc</h1>
+<p class="sub">Fabric 26.1.2 · private server · whitelist</p>
+
+<table>
+  <tr><th>Server</th><td><code>mc.han-diatonic.uk</code> (port 25565)</td></tr>
+  <tr><th>Pack manifest</th><td><a href="/pack.toml"><code>https://mc-pack.han-diatonic.uk/pack.toml</code></a></td></tr>
+  <tr><th>Voice chat</th><td>Simple Voice Chat, included in the pack (UDP 24454)</td></tr>
+  <tr><th>Minecraft</th><td>26.1.2, Fabric loader 0.20.1</td></tr>
+  <tr><th>Java</th><td>25</td></tr>
+  <tr><th>Memory</th><td>4–6 GB</td></tr>
+</table>
+
+<h2>Join with Prism Launcher</h2>
+<ol>
+  <li>Install Prism Launcher 11 and Java 25.</li>
+  <li>Create a 26.1.2 instance with Fabric 0.20.1 (4–6 GB memory).</li>
+  <li>Put <code>packwiz-installer-bootstrap.jar</code> in the instance's <code>.minecraft/</code> folder.</li>
+  <li>Edit → Settings → Custom commands, pre-launch:
+    <pre>"$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" -g -s client https://mc-pack.han-diatonic.uk/pack.toml</pre>
+  </li>
+  <li>Launch once. Mods and client configs install and stay in sync on every launch.</li>
+</ol>
+
+<p>Full pack details, update and troubleshooting notes: <a href="/README.md">README.md</a>.</p>
+</body>
+</html>
