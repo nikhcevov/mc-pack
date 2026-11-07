@@ -1,12 +1,12 @@
 name = "mc"
 author = "nikhcevov"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ba33b0837a7a4501a938aa408a93bc5c438d462763fc2db84cc86acac8d50e1a"
+hash = "58372b948b91366ff55e70f311b7599ae2781fb158004801cc88e46ee7133655"
 
 [versions]
 fabric = "0.20.1"

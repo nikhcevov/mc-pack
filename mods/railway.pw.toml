@@ -1,8 +1,8 @@
 name = "Railway"
-filename = "railway-0.1.0-alpha.6.jar"
+filename = "railway-0.1.0-alpha.8.jar"
 side = "server"
 
 [download]
-url = "https://mc-pack.han-diatonic.uk/custom/railway-0.1.0-alpha.6.jar"
+url = "https://mc-pack.han-diatonic.uk/custom/railway-0.1.0-alpha.8.jar"
 hash-format = "sha256"
-hash = "7a460a747990e2e654776121976d662b44073407ca65afdda5840f565e8fd999"
+hash = "d9e5400023ab34c53c2efa9639582f91668c83712a0e186157f213f204132522"

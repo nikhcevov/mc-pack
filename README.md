@@ -16,7 +16,7 @@ server container and every Prism client.
 | `index.toml` | generated file hashes; never edit by hand |
 | `mods/*.pw.toml` | mod metadata, no jars |
 | `config/`, `options.txt`, `servers.dat` | client files shipped as-is |
-| `custom/railway-0.1.0-alpha.6.jar` | server-only mod hosted by direct URL |
+| `custom/railway-0.1.0-alpha.8.jar` | server-only mod hosted by direct URL |
 | `index.html` | public landing page; not installed into clients |
 | `.packwizignore` | keeps `custom/`, `README.md`, `index.html` out of the index |
 
@@ -116,7 +116,7 @@ docker restart minecraft-mc
 ```
 
 Expected result: 21 jars in `/data/mods` (13 `both` + 8 `server`), including
-`railway-0.1.0-alpha.6.jar` fetched from `mc-pack/custom/`.
+`railway-0.1.0-alpha.8.jar` fetched from `mc-pack/custom/`.
 
 Server load defaults live in `config/DistantHorizons.toml` (4 threads,
 generation distance 2048, request rate 10); spark is server-side for
@@ -142,7 +142,7 @@ offline first start).
 
 ```bash
 curl -sSI https://mc-pack.han-diatonic.uk/pack.toml
-curl -sSI https://mc-pack.han-diatonic.uk/custom/railway-0.1.0-alpha.6.jar
+curl -sSI https://mc-pack.han-diatonic.uk/custom/railway-0.1.0-alpha.8.jar
 
 # full dry-run without touching a real instance:
 tmp=$(mktemp -d) && cd "$tmp" \
